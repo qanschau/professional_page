@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.main_header {
+    padding: 2% 0 0 10%;
+}
+
+.main_header__nav {
+    display: flex;
+    gap: 80px;
+}
+
+.main_header__nav__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #22D4FD;
+}
+
+.presentation {
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation__contentOne {
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentation__contentOne__title {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.text_highlight {
+    color: #22D4FD;
+}
+
+.presentation__contentOne__paragraph {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentation__contentOne__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
+.presentation__contentOne__links__title {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+}
+
+.presentation__contentOne__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 378px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+.presentation__contentOne__links__link:hover {
+    background-color: #272727;
+}
+
+.presentation__contentTwo_image {
+    height: 450px;
+}
+
+.main_footer {
+    background-color: #22D4FD;
+    color: #000000;
+    padding: 24px;
+    text-align: right;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main_footer__textHighlight {
+    font-size: 12px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 200;
+}
